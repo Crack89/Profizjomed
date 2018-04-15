@@ -1,0 +1,133 @@
+body {
+	font-family: Calibri, sans-serif;	
+	
+}
+
+@font-face {
+	font-family: Allura;
+	src:url(./Allura-Regular.otf)
+}
+header .container-fluid {
+
+	background-color: #04afa9;
+
+}
+#main-logo img{
+	width: 300px;
+}
+
+
+#sentens {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	/* font-family: "Century Gothic";  */
+	margin-top: 30px;
+	font-style: italic;
+	
+}
+
+#main-menu li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 14px;
+	text-align: center;
+	/* font-family: "Century Gothic", sans-serif; */
+	
+}	
+
+#main-menu a {
+	text-decoration: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 18px;
+	/* font-weight: bold; */
+	color: white;
+	
+}
+#main-menu a:hover {
+	color: rgba(247, 246, 243, 0.774);
+	border-bottom: 3px solid rgb(228, 163, 0);
+	padding-bottom: 9px;
+	transition: 0.5s;
+
+}
+
+#main-menu div{
+	
+	display: inline;
+	text-align: center;
+}
+#main-menu {
+	padding-top: 8px;
+}
+
+
+#main-menu {
+	background-color:  #03b4ae;
+	box-shadow: 0px 1px 3px rgb(75, 75, 75);
+
+	
+}
+
+#phone-number {
+	background-color:  rgb(156, 156, 156);
+	color: white;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	/* font-family: "Century Gothic", sans-serif; */
+	font-size: 18px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 0px 0px 3px rgb(75, 75, 75);	
+}
+
+#phone-number b {
+	color:  rgb(255, 207, 85);
+}
+main .container {
+	font-family: Helvetica, sans-serif;
+	color: rgba(85, 85, 85, 0.808);
+	font-size: 14px;
+	box-shadow: 0px -3px 20px rgb(156, 156, 156);
+}
+main .container h3{
+	margin: 20px 40px;
+}
+main {
+	background-color: rgb(241, 241, 241);
+}
+main .container{
+	background-color: white;
+
+}
+.carousel-inner img {
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+
+}
+
+.carousel-caption li {
+	list-style-type: none;
+	margin: 20px;
+}
+
+.carousel-caption {
+	/* font-family: "Century Gothic", sans-serif; */
+	font-size: 18px;
+	background-color: rgba(42, 138, 138, 0.699);
+	border-radius: 15px;
+}
+.carousel-caption h3 {
+	font-variant: small-caps;
+}
+footer .container-fluid {
+	background-color: rgb(126, 126, 126);
+	
+	text-align: center;
+	color: white;
+	/* font-family: "Century Gothic"; */
+	font-size: 18px;
+}
